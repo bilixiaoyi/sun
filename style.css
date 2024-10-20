@@ -1,0 +1,30 @@
+*{
+    margin: 0%; 
+    padding: 0; 
+  }
+  
+    body{
+        background-image: url('img/feng.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background-image: url("img/feng.jpg");
+        filter: blur(3px);
+        background-size: cover;
+      }
+      @font-face {
+        font-family: 'MyCustomFont';
+        src: url('义启星空之翼字体.ttf') format('truetype');
+      }
+      body {
+        font-family: 'MyCustomFont', sans-serif;
+      }
