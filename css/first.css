@@ -1,0 +1,31 @@
+*{
+  margin: 0%; 
+  padding: 0; 
+}
+.daohang{
+    width: 100%;
+    height: 80px;
+    backdrop-filter: blur(18px) brightness(99%);
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 0px;
+}
+.daohang .sun{
+    height: 80px;
+    margin-left: 5px;
+}
+.t1,.t2{
+    display: inline;
+    position: relative;
+    top: -25px;
+    margin-left: 20px;
+}
+.t1:hover,.t2:hover{
+    color: red;
+}
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('../义启星空之翼字体.ttf') format('truetype');
+  }
+  body {
+    font-family: 'MyCustomFont', sans-serif;
+  }
